@@ -38,7 +38,10 @@
         <div class="form-group">
             <select id="my-input" class="custom-select">
                 <option value="">Taille</option>
-                <option value="{{$product->size}}">{{$product->size}}</option>
+                <option value="">46</option>
+                <option value="">48</option>
+                <option value="">50</option>
+                <option value="">52</option>
             </select>
         </div>
     </form>
