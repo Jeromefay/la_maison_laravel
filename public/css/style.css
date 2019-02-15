@@ -1,0 +1,22 @@
+
+
+h1{
+    margin-bottom: 0;
+}
+
+h6{
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+body{
+    background: linear-gradient(to bottom right, #ccccff 0%, #ffffff 100%);
+}
+
+.pagination{
+    margin-top: 2rem;
+}
+
+.leftPictures{
+    margin-bottom: 1rem;
+}
