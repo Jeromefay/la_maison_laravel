@@ -30,11 +30,11 @@
       <img src="{{asset('images/'.$product->url_image)}}" alt="" width="375px" height="300px">
     </a>
       @endif
-      <h3><a href="{{url('product', $product->id)}}">{{$product->title}}</a></h3>
-      <h3>Prix: {{$product->price}} €</h3>
-    </div>
-  @endforeach
+    <h3><a href="{{url('product', $product->id)}}">{{$product->title}}</a></h3>
+    <h3>Prix: {{$product->price}} €</h3>
   </div>
+  @endforeach
+</div>
 
 
 

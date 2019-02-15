@@ -7,7 +7,7 @@
         $segments = Request::segments();
         $href = url('/');
     @endphp
-    <ol class="breadcrumb bg-white">
+    <ol class="breadcrumb bg-dark">
       <li class="breadcrumb-item"><a href="{{url('/')}}">Boutique</a></li>
         @foreach($segments as $segment)
             @php
